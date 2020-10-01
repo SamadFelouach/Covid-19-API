@@ -1,0 +1,32 @@
+
+<div class="container p-4">
+<div class="card ">
+    <table class="table">
+      <thead>
+      <tr>
+        <th scope="col">Country Name</th>
+        <th scope="col">NewConfirmed</th>
+        <th scope="col">NewRecovered</th>
+        <th scope="col">NewDeaths</th>
+        <th scope="col">TotalConfirmed</th>
+        <th scope="col">TotalRecovered</th>
+        <th scope="col">TotalDeaths</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let country of dataCountry">
+
+        <td>{{country.Country}}</td>
+        <td>{{country.NewConfirmed}}</td>
+        <td>{{country.NewRecovered}}</td>
+        <td>{{country.NewDeaths}}</td>
+        <td>{{country.TotalConfirmed}}</td>
+        <td>{{country.TotalRecovered}}</td>
+        <td>{{country.TotalDeaths}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
