@@ -7,11 +7,23 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import {HttpClientModule} from '@angular/common/http';
 import { CountriesComponent } from './countries/countries.component';
 
+import { ChartjsComponent } from './chartjs/chartjs.component';
+import { HeaderComponent } from './pages/header/header.component';
+import { SidebarComponent } from './pages/sidebar/sidebar.component';
+import { FooterComponent } from './pages/footer/footer.component';
+import { TestComponent } from './test/test.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    CountriesComponent
+    CountriesComponent,
+    ChartjsComponent,
+    HeaderComponent,
+    SidebarComponent,
+    FooterComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,

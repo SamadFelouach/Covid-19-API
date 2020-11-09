@@ -1,4 +1,9 @@
-<div class="dashboard">
+<app-header></app-header>
+<app-sidebar></app-sidebar>
+
+<div class="content-wrapper">
+ <div class="content">
+  <div class="dashboard">
   <div class="title">Covid-19-Dashboard</div>
 
 
@@ -23,8 +28,9 @@
   <div >Total NewDeaths</div>
   {{data.NewDeaths}}
 
-
-
-
 </div>
 
+
+<router-outlet></router-outlet>
+</div>
+</div>
