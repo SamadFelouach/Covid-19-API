@@ -6,8 +6,9 @@
    <h1 class="text-center"> Covid-19 Dashboard </h1>
 
    <div class="row">
+     <!-- New Cases Small Box -->
      <div class="col">
-       <!-- small box -->
+
        <div class="small-box bg-warning">
          <div class="inner">
            <h4>Total Cases : {{data.TotalConfirmed}} </h4>
@@ -15,7 +16,7 @@
          </div>
        </div>
      </div>
-     <!-- Recovred cases -->
+     <!-- Recovred cases Small Box -->
      <div class="col">
        <div class="small-box bg-success">
          <div class="inner">
@@ -24,28 +25,17 @@
          </div>
        </div>
      </div>
-
-     <!-- ./col -->
+     <!-- New Deaths Box-->
      <div class="col">
        <!-- small box -->
        <div class="small-box bg-danger">
          <div class="inner">
-
            <h4>Total Deaths : {{data.TotalDeaths}}</h4>
            <p>New Deaths{{data.NewDeaths}}</p>
-
          </div>
-         <div class="icon">
-           <i class="fas fa-exclamation-triangle 5px"></i>
-         </div>
-
        </div>
      </div>
-     <!-- ./col -->
    </div>
-
-
 </div>
-
 <router-outlet></router-outlet>
 </div>
